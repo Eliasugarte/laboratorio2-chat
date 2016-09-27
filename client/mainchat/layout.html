@@ -1,0 +1,19 @@
+<template name="layout">
+<b>
+	Mensajes
+</b>
+<ul>
+	{{#each msnList}}
+		{{>msnItems}}
+	{{/each}}
+</ul>
+<form class="chatSendMessages">
+	 <input type="text" value="" name="msn" >
+</form>
+</template>
+
+<template name ="msnItems">
+	<li>
+		{{msn}} {{date}}
+	</li>
+</template>
