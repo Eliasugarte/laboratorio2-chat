@@ -8,9 +8,9 @@ body{
 input{
 	font-size: 20px;
 	border:none;
-	border-bottom: 2px solid #ff0000;
+	border-bottom: 2px solid #00ffff;
 }
 input:hover{
 	border:none ;
-	border-bottom: 10px solid #ff0000;
+	border-bottom: 10px solid #00ffff;
 }
